@@ -25,8 +25,8 @@ options.forEach((button) => {
       player.classList.remove("shake");
       computer.classList.remove("shake");
 
-      player.src = `${playerChoice}Player.png`;
-      computer.src = `${computerChoice}Computer.png`;
+      player.src = `${playerChoice.toLowerCase()}Player.png`;
+      computer.src = `${computerChoice.toLowerCase()}Computer.png`;
 
       const outcome = results[playerChoice][computerChoice];
 
